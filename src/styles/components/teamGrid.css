@@ -1,0 +1,209 @@
+.teamGrid-member {
+    display: flex;
+    width: 75vw;
+    justify-content: center !important;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.teamGrid-headings {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+}
+
+.teamGrid-centerGrid {
+    padding: 5px;
+}
+
+.teamGrid-Nav {
+    text-align: center;
+    color: black;
+    height: 5%;
+    padding-top: 10px;
+    background: linear-gradient(270deg,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(215, 213, 213, 1) 0%,
+            rgba(242, 242, 242, 1) 100%);
+}
+
+.teamGrid-container {
+    position: relative;
+    max-width: 220px;
+    margin: 28px 30px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 200px;
+}
+
+.teamGrid-cCard {
+    box-shadow: 0px 0px 10px grey;
+    height: 250px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+c-contentBx h2 {
+    text-align: center;
+}
+
+.teamGrid-card {
+    position: relative;
+    height: 220px;
+    width: 90%;
+    background: white;
+    overflow: hidden;
+    box-shadow: 4px 12px 47px 0 rgb(0 0 0 / 10%);
+    transition-duration: 250ms;
+    transition-property: transform, background-color;
+    border-radius: 22px;
+}
+
+hover {
+    transform: scale(1.teamGrid-1);
+    box-shadow: rgba(6, 24, 44, 0.teamGrid-4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.teamGrid-65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.teamGrid-08) 0px 1px 0px inset;
+}
+
+.teamGrid-card:hover {
+    transform: translateY(-5px);
+}
+
+.teamGrid-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.teamGrid-card:after {
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 8em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(255, 255, 25, 0.teamGrid-05);
+}
+
+.teamGrid-circularSquare {
+    border: 2px;
+    opacity: 1;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+}
+
+.teamGrid-imgBx {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 0;
+    width: 80%;
+    height: 60px;
+    transition: 0.teamGrid-5s;
+}
+
+.teamGrid-imgBx img {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-40%, -60%);
+}
+
+.teamGrid-contentBx {
+    position: absolute;
+    padding: 0px;
+    top: 60%;
+    width: 70%;
+    word-wrap: break-word;
+    text-align: center;
+    padding-left: 25%;
+    z-index: 0;
+}
+
+.teamGrid-contentBx h2 {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.teamGrid-3;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.teamGrid-size {
+    padding: 3px 0;
+}
+
+.teamGrid-left {
+    width: 20%;
+    padding: 25px 25px 60px 0px;
+}
+
+.teamGrid-color {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0px 15px;
+}
+
+.teamGrid-color h3 {
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: -2px -1px 2px rgba(0, 0, 0, 0.teamGrid-6);
+}
+
+.teamGrid-size h4 {
+    color: black;
+    font-weight: 300;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.teamGrid-color span {
+    width: 25px;
+    min-height: 25px;
+    background: url(../../assets/LN.svg);
+    background-size: 25px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.teamGrid-smi {
+    visibility: hidden;
+    z-index: 2;
+}
+
+.teamGrid-color span:nth-child(2) {
+    background-image: url(../../assets/GH.svg);
+    background-size: 25px;
+}
+
+.teamGrid-color span:nth-child(3) {
+    background: url(../../assets/FB.svg);
+    background-size: 25px;
+}
+
+.teamGrid-color span:nth-child(4) {
+    background-image: url(../../assets/IG.svg);
+    background-size: 25px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {}
